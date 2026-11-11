@@ -1,7 +1,7 @@
 const fs = require('fs');
 const path = require('path');
 
-const DOMAIN = 'https://vector-space-tech.pages.dev';
+const DOMAIN = 'https://vector-space-tech.pageaura.xyz';
 const KEY = '0e45e72637414a21b7dc0592989aa8d4';
 
 const ROOT = __dirname;
@@ -45,7 +45,7 @@ for (const value of rawUrls) {
   }
 
   if (
-    url.hostname.toLowerCase() !== 'vector-space-tech.pages.dev' ||
+    url.hostname.toLowerCase() !== 'vector-space-tech.pageaura.xyz' ||
     !['http:', 'https:'].includes(url.protocol) ||
     url.username ||
     url.password
