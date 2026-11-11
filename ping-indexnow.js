@@ -2,9 +2,9 @@ const fs = require('fs');
 const path = require('path');
 const https = require('https');
 
-const HOST = 'vector-space-tech.pages.dev';
+const HOST = 'vector-space-tech.pageaura.xyz';
 const KEY = '0e45e72637414a21b7dc0592989aa8d4';
-const KEY_LOCATION = `https://vector-space-tech.pages.dev/0e45e72637414a21b7dc0592989aa8d4.txt`;
+const KEY_LOCATION = `https://vector-space-tech.pageaura.xyz/0e45e72637414a21b7dc0592989aa8d4.txt`;
 
 const urlsFile = path.join(__dirname, 'urls.txt');
 let urlList = [];
